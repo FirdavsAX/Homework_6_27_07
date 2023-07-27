@@ -11,6 +11,7 @@
             string enterStr2 = Console.ReadLine();
 
             bool isEqual = true; 
+
             foreach(char i in enterStr)
             {
                 if (enterStr2.Contains(i))
